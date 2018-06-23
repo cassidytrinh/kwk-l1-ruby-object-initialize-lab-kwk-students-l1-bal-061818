@@ -1,11 +1,9 @@
 # person.rb
 class Person
-  attr_accessor :name, :breed
+  attr_accessor :name
 
-  def initialize(name, breed="Mutt")
+  def initialize(name)
     @name = name
-    @breed = breed
   end
 
 end
-
